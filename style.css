@@ -7,7 +7,7 @@ body{
     max-width: 600px;
     margin: 0 auto;
     padding-top: 20px;
-    border: 2px solid;
+    
 }
 .square{
     width: 30%;
@@ -15,6 +15,7 @@ body{
     padding-bottom: 30%;
     float: left;
     margin: 10px;
+    border-radius: 2px;
 }
 h1{
     color:white;
@@ -24,4 +25,41 @@ h1{
     text-align: center;
     text-transform: uppercase;
     margin: 10px 0px;
+}
+#color-display{
+    display: block;
+    font-size: 25px;
+}
+#options{
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+#message{
+    text-transform: uppercase;
+    color: blue;
+    font-size: 20px;
+    display: inline-block;
+    width: 20%;
+}
+button{
+    color: blue;
+    text-transform: uppercase;
+    height: 100%;
+    font-size: 2em;
+    background-color: white;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+}
+.selected{
+    background-color:  blue;
+    color: white;
+}
+*{
+    border: 0px solid red;
 }
