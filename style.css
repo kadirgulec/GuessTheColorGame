@@ -1,0 +1,27 @@
+body{
+    background-color: grey;
+    font-size: 15px;
+    margin:0;
+}
+#container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 20px;
+    border: 2px solid;
+}
+.square{
+    width: 30%;
+    background-color: red;
+    padding-bottom: 30%;
+    float: left;
+    margin: 10px;
+}
+h1{
+    color:white;
+    background-color: blue;
+    padding-bottom: 10px 0px;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
