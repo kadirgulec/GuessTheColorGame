@@ -52,13 +52,10 @@ function setupMode(){
                 numSquares = 6;
             }
             reset();
-        });
-        
-    }
-    
-    
-   
+        });  
+    }   
 }
+
 function reset(){
     colors= genRandomColors(numSquares);
     pickedColor = chooseColor();
@@ -71,7 +68,9 @@ function reset(){
             squares[i].style.display = "block";
             squares[i].style.backgroundColor = colors[i];
         }
+        else{
         squares[i].style.display = "none";
+    }
     }
 }
 function changeColors(color){
